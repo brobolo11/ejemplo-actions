@@ -1,4 +1,4 @@
-name: Crear y subir imagen Docker
+name: Crear y subir imagen DockerHub
 
 on:
   push:
