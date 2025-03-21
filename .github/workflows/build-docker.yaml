@@ -9,6 +9,6 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - name: construir imagen
-        run: echo "${{ secrets.Lolitofernandez10@ }}" | docker login -u "${{ secrets.brobolo }}" --password-stdin
+        run: echo "${{ secrets.Lolitofernandez10 }}" | docker login -u "${{ secrets.brobolo }}" --password-stdin
       - name: subir imagen a dockerhub
         run: docker push brobolo/ejemplo-actions:latest
